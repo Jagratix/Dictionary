@@ -1,0 +1,4 @@
+dict = {0:"Value 1", 1:"Value 2", 2:"Value 3"}
+keys_to_remove = [0,1]
+dict = { k: dict[k] for k in dict.keys() - keys_to_remove }
+print(dict)
