@@ -1,0 +1,7 @@
+dict1 = {
+         'key 1': 'Apple',
+         'key 2':'Mango',
+         'key 3':'Papaya'
+         }
+for key in sorted(dict1):
+    print("%s : %s" % (key, dict1[key]))
